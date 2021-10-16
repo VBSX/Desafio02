@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <title>Desafio CEP</title>
 </head>
@@ -11,17 +13,40 @@
     <header>
         <div id="titulos">
             <h1 id="mim-acha">ME ACHA!</h1>
-            <H2 id="cep">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</H2>
+            <H5 id="cep">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</H2>
         </div>
         <div id="travel">
-            <img src="imagens/travel.png" height="64px" width="64px">
+             <span class="material-icons icon">
+                travel_explore
+                </span>>
         </div>
     </header>
 
     <main>
-        <ul>
-            
-        </ul>
+       <form method="get" name="busca">
+           <fieldset>
+                <label for="CEP">Cep</label>
+                <input type="text" name="Cep" value="" id="CEP">
+                
+                <label for="rua">Rua</label>
+                <input type="text" name="Rua" value="" id="rua">
+                
+                <label for="bairro">Bairro</label>
+                <input type="text" name="Bairro" value="" id="bairro">
+                
+                <label for="cidade">Cidade</label>
+                <input type="text" name="Cidade" value="" id="cidade">
+                
+                <label for="estado">Estado</label>
+                <input type="text" name="Estado" value="" id="estado">
+                
+                <input type="submit" name="enviar" value="BUSCAR" id="search">
+            </fieldset>
+       </form>
     </main>
 </body>
 </html>
+
+
+
+
