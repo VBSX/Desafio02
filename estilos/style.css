@@ -10,7 +10,8 @@ header {
     height: 200px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* border: 1px solid black; */
-    background-color:;
+    background-image: linear-gradient(45deg, #2196F3, #3D5AFE);
+    color: #fff;
 }
 div#titulos {
     margin: 0 auto;
@@ -25,15 +26,15 @@ div#titulos > #cep {
     margin: 0 auto;
 }
 div#travel {
-    width: 140px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
     margin-top: 40px;
-    border-top: 1px solid white;
-    border-radius: 100px;
+    border-radius: 300px; 
     background-color: white;
-    padding-left: 40px;
 }
-div#travel > #icon {
-    margin: 0 auto;
+#icon {
+    margin-top: 10px ;
+    margin-left: 20px;
+
 }
